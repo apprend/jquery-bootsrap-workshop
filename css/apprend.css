@@ -1,0 +1,36 @@
+body {
+
+  background-image: url('../images/12nGriswold_1920.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.cover-container {
+
+
+  background: radial-gradient(rgba(0,0,0, .7) 0%, transparent 70%); /* Standard syntax */
+
+  text-shadow: 0 1px 2px #000;
+}
+
+.cover-container .inner.cover {
+    padding: 2em;
+}
+
+a {color: yellow;}
+
+.modal-content {
+  color: #333;
+  text-align: left;
+  text-shadow: none;
+
+}
+
+.tooltip-inner {
+  background-color: #fff;
+  color: #333;
+  text-shadow: none;
+}
+
+.tooltip > .tooltip-arrow { border-top-color:#fff !important;}
