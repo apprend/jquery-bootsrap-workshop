@@ -1,25 +1,27 @@
+/* Add the background image */
 body {
-
   background-image: url('../images/12nGriswold_1920.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 .cover-container {
-
-
+  /* text protection scrim */
   background: radial-gradient(rgba(0,0,0, .7) 0%, transparent 70%); /* Standard syntax */
 
+  /* More contrast for the main body text */
   text-shadow: 0 1px 2px #000;
 }
 
 .cover-container .inner.cover {
+    /* This increased the scrim size */
     padding: 2em;
 }
 
+/* Change all link colors */
 a {color: yellow;}
 
+/* Override default text settings for modal */
 .modal-content {
   color: #333;
   text-align: left;
@@ -27,6 +29,7 @@ a {color: yellow;}
 
 }
 
+/* Change the tooltip color  to white */
 .tooltip-inner {
   background-color: #fff;
   color: #333;
