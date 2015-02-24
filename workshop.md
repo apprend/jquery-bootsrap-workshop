@@ -231,7 +231,7 @@ You need to save your html file and reload the page in your browser to see chang
 
 Modifying the background image has nothing to do with Bootstrap *per-se*, but we're hacking on the pre-bulit bootstrap template.
 
-Add this to `apprend.css`
+Add this to `css/apprend.css`
 
 ```css
 body {
@@ -288,7 +288,7 @@ Drop an icon from the "How to Use" section of the [Bootstrap Components page](ht
 
 ### Cony Pic
 
-First things, first, just drop in a regular ole' image tag:
+First things, first, just drop in a regular ole' image tag right above our `h1` inside our `div.inner.cover`:
 
 ```html
 <img src="images/coney.jpg" />
@@ -302,6 +302,14 @@ First things, first, just drop in a regular ole' image tag:
 ```
 
 > Boom - round coney pic.
+
+# Recap - What Just Happened
+
+So far, we grabbed a stock bootstrap template with the CDN links already added for us, modified some of text, added an icon by changes a class, and created a nice rounded thumbnail image.
+
+### Check In
+
+Let's compare our in-progress site, to our goal: [apprend.github.io/jquery-bootsrap-workshop/](http://apprend.github.io/jquery-bootsrap-workshop/)
 
 ### Add the a Modal dialog
 
@@ -335,13 +343,13 @@ Drop in the modal code from [getbootstrap.com](http://getbootstrap.com/javascrip
 
 ### Add a button to trigger the Modal
 
-Now let's add the "Contact Us" button
+Now let's add the "Contact Us" button inside the paragraph that currently contains the "Learn More" button:
 
 ```html
 <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Contact Us</button>
 ```
 
-Now test drive that modal! (save, reload, click...)
+Then go test drive that modal! (save, reload, click...)
 
 ### Override default text shadows
 
@@ -356,6 +364,14 @@ That modal has an awful text shadow. Let's fix it by overriding some of cover.cs
 ```
 
 > Don't forget to go back and test it out
+
+# Recap - What Just Happened
+
+We added a version of a stock modal from getbootstrap.com, added a button to trigger it, and overwrote some diagreeable default text styles.
+
+### Check In
+
+Let's compare our in-progress site, to our goal: [apprend.github.io/jquery-bootsrap-workshop/](http://apprend.github.io/jquery-bootsrap-workshop/)
 
 ### More Mods - link color
 
@@ -399,9 +415,11 @@ Background from <a href="http://en.wikipedia.org/wiki/History_of_Detroit#mediavi
 
 You'll notice on the demo site, that the "Lafayette Coney Island" link has a tooltip over it. We don't have enough time to build that today, but you should try to do it on your own!
 
+
+
 # Closing Thoughts
 
-Q&A Time
+Holy cow! Look at how much website we got for our effort!
 
 # Thank You!
 
