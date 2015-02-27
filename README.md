@@ -1,1 +1,1 @@
-# jquery-bootsrap-workshop
+# jquery-bootstrap-workshop
