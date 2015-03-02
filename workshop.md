@@ -32,7 +32,7 @@ This presentation is a test run for a longer-form jQuery + Bootstrap class that'
 
 Please join our monthy-ish mailing list to find out about all the great events that are being scheduled. You can find it by visiting [apprend.org](/) and scrolling to the bottom of the home page.
 
-![Mailing List SS](http://apprend.github.io/jquery-bootsrap-workshop/images/mailing-list-ss.png)
+![Mailing List SS](http://apprend.github.io/jquery-bootstrap-workshop/images/mailing-list-ss.png)
 
 ## Get Involved
 
@@ -52,7 +52,7 @@ Monday March 23 - Wednesday March 25, $75
 
 # Goals for today
 
-  * Learn why Bootsrap + jQuery are such a big deal
+  * Learn why Bootstrap + jQuery are such a big deal
   * Cover Bootstrap's basics
   * Create a *somewhat* historically accurate page named "A Tale of Two Hotdogs"
 
@@ -156,7 +156,7 @@ All of these plugins are written as jQuery plugins, and are incredibly flexible.
 
 ## Themes
 
-![Saywhat?](http://apprend.github.io/jquery-bootsrap-workshop/images/saywhat.jpg)
+![Saywhat?](http://apprend.github.io/jquery-bootstrap-workshop/images/saywhat.jpg)
 
 Bootstrap can be themed. Just google it.
 
@@ -186,9 +186,9 @@ We're going to put together a single-page website that uses these components:
 
 ---
 
-![A Tale of Two Hotdogs](http://apprend.github.io/jquery-bootsrap-workshop/images/a-tale-of-two-hotdogs.jpg)
+![A Tale of Two Hotdogs](http://apprend.github.io/jquery-bootstrap-workshop/images/a-tale-of-two-hotdogs.jpg)
 
-It should look something [like this](http://apprend.github.io/jquery-bootsrap-workshop/) when we're done.
+It should look something [like this](http://apprend.github.io/jquery-bootstrap-workshop/) when we're done.
 
 
 ## Step 0: Don't follow along yet
@@ -201,9 +201,9 @@ You DON'T have to download Bootstrap, just get the template pre-built for this e
 
 Head over to this url and click on the "Download Zip" button in the lower right corner of the page:
 
-[github.com/apprend/jquery-bootsrap-workshop](https://github.com/apprend/jquery-bootsrap-workshop)
+[github.com/apprend/jquery-bootstrap-workshop](https://github.com/apprend/jquery-bootstrap-workshop)
 
-![download](http://apprend.github.io/jquery-bootsrap-workshop/images/download.png)
+![download](http://apprend.github.io/jquery-bootstrap-workshop/images/download.png)
 
 ## Bootstrap is already installed
 
@@ -254,7 +254,7 @@ Open `index.html`, and edit near line 52:
     </p>
 ```
 
-Change "Cover" to "A Tale of Two Hotdogs", and fill the paragraph with text from [apprend.github.io/jquery-bootsrap-workshop/](http://apprend.github.io/jquery-bootsrap-workshop/).
+Change "Cover" to "A Tale of Two Hotdogs", and fill the paragraph with text from [apprend.github.io/jquery-bootstrap-workshop/](http://apprend.github.io/jquery-bootstrap-workshop/).
 
 ### Modify Page Title
 
@@ -309,7 +309,7 @@ So far, we grabbed a stock bootstrap template with the CDN links already added f
 
 ### Check In
 
-Let's compare our in-progress site, to our goal: [apprend.github.io/jquery-bootsrap-workshop/](http://apprend.github.io/jquery-bootsrap-workshop/)
+Let's compare our in-progress site, to our goal: [apprend.github.io/jquery-bootstrap-workshop/](http://apprend.github.io/jquery-bootstrap-workshop/)
 
 ### Add the a Modal dialog
 
@@ -371,7 +371,7 @@ We added a version of a stock modal from getbootstrap.com, added a button to tri
 
 ### Check In
 
-Let's compare our in-progress site, to our goal: [apprend.github.io/jquery-bootsrap-workshop/](http://apprend.github.io/jquery-bootsrap-workshop/)
+Let's compare our in-progress site, to our goal: [apprend.github.io/jquery-bootstrap-workshop/](http://apprend.github.io/jquery-bootstrap-workshop/)
 
 ### More Mods - link color
 
@@ -398,7 +398,7 @@ For tripple bonus points, we can add a text protection scrim to make the main co
 
 ### More Mods - Credits Pt.1
 
-We didn't create any of the images or text used on our sample site. As such, we should credit the authors. These mods are on [http://apprend.github.io/jquery-bootsrap-workshop/](http://apprend.github.io/jquery-bootsrap-workshop/) and can be done on your own time.
+We didn't create any of the images or text used on our sample site. As such, we should credit the authors. These mods are on [http://apprend.github.io/jquery-bootstrap-workshop/](http://apprend.github.io/jquery-bootstrap-workshop/) and can be done on your own time.
 
 Modify the "Learn More" link to point to [http://theeatenpath.com/2009/11/24/coney-island-dogs-american-lafayette-detroit-michigan/](http://theeatenpath.com/2009/11/24/coney-island-dogs-american-lafayette-detroit-michigan/)
 
